@@ -31,7 +31,7 @@ public class persegiPanjang {
 ```
 > code main persegiPanjang
 
-<img src = img/ppMain.png>
+<img src = "img/ppMain.png">
 
 <br>
 
@@ -108,7 +108,7 @@ public class persegiPanjangMain {
 <br>
 
 ### 3.3.2 Verifikasi Hasil Percobaan
-<img src = img/ppLoopRun.png>
+<img src = "img/ppLoopRun.png">
 
 <br>
 
@@ -199,11 +199,11 @@ public class balok {
 }
 ```
 >- code main balokArray
-<img src = balokMain.png>
+<img src = "img/balokMain.png">
 
 
 ### 3.4.2 Verifikasi Hasil Percobaan
-<img src = img/balokRun.png>
+<img src = "img/balokRun.png">
 
 ### 3.4.3 Pertanyaan
 Jika diketahui terdapat class Segitiga seperti berikut ini:
@@ -324,7 +324,7 @@ luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
     }
     ```
     >- Hasil Output Limas
-    <img src = img/limasRun.png> <p>
+    <img src = "img/limasRun.png"> <p>
 
     >- Code Class Prisma 
     ```java
@@ -462,7 +462,7 @@ luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
     }
     ```
     >- Hasil Output nomor2<p>
-    <img src = img/no2Run.png>
+    <img src = "img/no2Run.png">
 
 3. Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama, nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua informasi tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika
 dimisalkan terdapat 3 data mahasiswa yang tersedia.
@@ -511,7 +511,7 @@ dimisalkan terdapat 3 data mahasiswa yang tersedia.
     }    
     ```
     >- Hasil Output nomor3<p>
-    <img src = img/no3Run.png>
+    <img src = "img/no3Run.png">
 
 
 
