@@ -29,8 +29,12 @@ public class mainMahasiswa {
         list.selectionSort();
         list.tampil();
         
-        System.out.println("Data Mahasiswa Setelah Sorting Asc Berdasarkan IPK"); //asc = kecil ke besar
-        list.insertionSort();
+        System.out.println("Data Mahasiswa Setelah Insertion Sorting Asc Berdasarkan IPK"); //asc = kecil ke besar
+        list.insertionSort(true);
+        list.tampil();
+        
+        System.out.println("Data Mahasiswa Setelah Insertion Sorting Desc Berdasarkan IPK"); //desc = besar ke kecil
+        list.insertionSort(false);
         list.tampil();
     } 
 }
