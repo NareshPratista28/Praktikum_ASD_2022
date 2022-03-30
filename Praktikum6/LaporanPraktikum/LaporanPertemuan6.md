@@ -141,6 +141,17 @@ public class mainMahasiswa {
 
 3. Apakah yang dimaksud proses swap? Tuliskan potongan program untuk melakukanproses swap tersebut!
 
+    > Swap adalah pertukaran
+    ```java
+      Mahasiswa tmp = listMhs[j];
+    listMhs[j] = listMhs[j-1]; //listMhs[j-1[ KOSONG
+    listMhs[j-1] = tmp;
+    ```
+    ```java
+      Mahasiswa tmp = listMhs[idxMin];
+    listMhs[idxMin] = listMhs[i];
+    listMhs[i] = tmp;
+    ```
 
 4. Di dalam method bubbleSort(), terdapat baris program seperti dibawah ini:
 <img src = "img/pertanyaan1.PNG">
@@ -248,7 +259,45 @@ list.tampil();
 
 1. Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara ascending atau decending, anda dapat melakukannya dengan menambahkan parameter pada pemanggilan fungsi insertionSort.
 
+> class DaftarMahasiswaBerprestasi
+```java
+    void insertionSort(boolean asc){
+        for(int i = 1; i < listMhs.length; i++){
+            Mahasiswa temp = listMhs[i];
+            int j = i;
+            
+            if(asc){
+            while (j > 0 && listMhs[j-1].ipk > temp.ipk){
+                listMhs[j] = listMhs[j-1];
+                j--;
+            }
+            }else {
+                
+            while (j > 0 && listMhs[j-1].ipk < temp.ipk){
+                listMhs[j] = listMhs[j-1];
+                j--;
+            }      
+            listMhs[j] = temp;
+        }
+    }
+}
+```
+> class mainMahasiswa
+```java
+System.out.println("Data Mahasiswa Setelah Insertion Sorting Asc Berdasarkan IPK"); //asc = kecil ke besar
+list.insertionSort(true);
+list.tampil();
+```
+```java
+System.out.println("Data Mahasiswa Setelah Insertion Sorting Desc Berdasarkan IPK"); //desc = besar ke kecil
+list.insertionSort(false);
+list.tampil();
+```
 
+> Hasil Output
+
+<img src = "img/runPertanyaan1.PNG">
+<img src = "img/runPertanyaan2.PNG">
 
 **5.5 Latihan Praktikum**
 
