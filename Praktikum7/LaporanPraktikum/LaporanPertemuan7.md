@@ -1,4 +1,4 @@
-﻿## LAPORAN PRAKTIKUM PERTEMUAN 6
+﻿## **LAPORAN PRAKTIKUM PERTEMUAN 7**
 >Nama  : Naresh Pratista<p>
 >Kelas : 1F-D4TI<p>
 >Absen : 22<p>
