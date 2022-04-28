@@ -200,6 +200,7 @@ public class queueMain {
 }
 ```
 **8.2.2 Verifikasi Hasil Percobaan** 
+
 <img src = "img/ss_822.PNG">
 
 **8.2.3 Pertanyaan**
