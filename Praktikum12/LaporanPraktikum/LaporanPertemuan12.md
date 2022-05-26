@@ -856,6 +856,7 @@ public class Node {
         this.id = id;
         this.judulFilm = judulFilm;
         this.next = next;
+        this.rating = rating;
     }
 }
 ```
