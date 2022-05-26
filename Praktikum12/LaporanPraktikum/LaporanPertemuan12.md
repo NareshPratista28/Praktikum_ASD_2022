@@ -169,6 +169,8 @@ public class DoubleLinkedListMain {
 **12.2.2 Verifikasi Hasil Percobaan**
 <img src = "img/praktikum1_run.PNG">
 
+<br>
+
 **12.2.3 Pertanyaan Percobaan**
 1. Jelaskan perbedaan antara single linked list dengan double linked lists!
     >Terletak pada pointernya, pada single linked list pointer hanya ada 1 yaitu next, sedangkan pada double linked list ada 2 pointer yakni next dan previous.
@@ -401,7 +403,9 @@ public class DoubleLinkedListMain {
 ```
 
 **12.3.2 Verifikasi Hasil Percobaan**
-<img src = "img/praktikum2_run.PNG">
+<img src = "img/praktikum2_run.PNG"> 
+
+<br>
 
 **12.3.3 Pertanyaan Percobaan**
 1. Apakah maksud statement berikut pada method removeFirst()?
@@ -835,6 +839,8 @@ public class DoubleLinkedListMain {
 
 <img src = "img/tugas1_1.PNG">
 <img src = "img/tugas1_2.PNG">
+
+<br>
 
 2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara descending. Class Film wajib diimplementasikan dalam soal ini.
 >class Node
