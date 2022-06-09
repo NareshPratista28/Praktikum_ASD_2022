@@ -1,14 +1,8 @@
-﻿
-
-Graph
-
-Tim Ajar Algoritma dan Struktur Data
-
-Genap 2021/2022
-
-
-
-
+﻿## LAPORAN PRAKTIKUM PERTEMUAN 15
+>Nama  : Naresh Pratista<p>
+>Kelas : 1F-D4TI<p>
+>Absen : 22<p>
+**GRAPH**
 
 Tujuan
 
