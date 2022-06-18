@@ -174,7 +174,7 @@ public static void main (String[] args) throws Exception {
     > Ketika i == destination maka disitu akan dilihat dari i atau dengan cara looping vertex.
 
 5. Kenapa pada praktikum 2.1.1 langkah ke-12 untuk menghapus path yang bukan merupakan lintasan pertama kali menghasilkan output yang salah ? Bagaimana solusinya ?
-    > 
+    > dengan mengganti kondisi yang awalnya i==destination menjadi i==source
 
 <br>
 
